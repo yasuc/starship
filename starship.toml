@@ -10,6 +10,7 @@ $git_metrics\
 [](fg:#394260 bg:#212736)\
 $nodejs\
 $python\
+$lua\
 $rust\
 $golang\
 $php\
@@ -79,6 +80,11 @@ format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
 [python]
 symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+
+[lua]
+symbol = ""
 style = "bg:#212736"
 format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
