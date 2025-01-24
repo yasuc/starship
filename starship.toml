@@ -1,3 +1,8 @@
+# エディターの補完を設定スキーマに合わせて取得
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# シェルのプロンプトの間に空行を挿入する
+add_newline = false
 format = """
 [░▒▓](#a3aed2)\
 $os\
@@ -20,7 +25,7 @@ $time\
 \n$character"""
 
 [os]
-format = "[$symbol]($style)"
+format = "[ $symbol]($style)"
 style = "bg:#a3aed2 fg:#090c0c"
 disabled = false
 
